@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+:root {
+    --NAVY-BLUE: rgba(46, 47, 66, 1);
+    --IRIS: rgba(77, 90, 229, 1);
+    --SLATE: rgba(67, 68, 85, 1);
+    --WHITE: #FFF;
+    --CORNFLOWER: rgba(231, 233, 252, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--NAVY-BLUE);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+h1 {
+    color: var(--WHITE);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+
+button {
+    justify-content: center;
+    padding: 16px 34px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+
+header {
+    height: 72px;
+    border-bottom: 1px solid var(--CORNFLOWER);
+    background: var(--WHITE, #FFF);
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--IRIS);
+}
+
+.logo .logo-text {
+    color: var(--NAVY-BLUE);
+}
+
+nav {
+    gap: 40px;
+}
+
+.contacts {
+    color: var(--SLATE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.hero {
+    background: var(--NAVY-BLUE);
+}
