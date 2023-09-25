@@ -5,8 +5,10 @@
     --NAVY-BLUE: rgba(46, 47, 66, 1);
     --IRIS: rgba(77, 90, 229, 1);
     --SLATE: rgba(67, 68, 85, 1);
+    --OCEAN: #404BBF;
     --WHITE: #FFF;
     --CORNFLOWER: rgba(231, 233, 252, 1);
+    --CLOUD: #F4F4FD;
 }
 
 a {
@@ -19,7 +21,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 150%;
     letter-spacing: 0.32px;
 }
 
@@ -29,25 +31,20 @@ h1 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 107.143%;
     letter-spacing: 1.12px;
 }
 
 button {
-    justify-content: center;
+    cursor: pointer;
     padding: 16px 34px;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE);
     font-weight: 500;
+    line-height: 150%;
     letter-spacing: 0.64px;
-}
-
-header {
-    height: 72px;
-    border-bottom: 1px solid var(--CORNFLOWER);
-    background: var(--WHITE, #FFF);
 }
 
 .logo {
@@ -55,7 +52,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 116.667%;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -72,16 +69,27 @@ nav {
     gap: 40px;
 }
 
-.contacts {
+nav .navbar-text {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+}
+
+.contacts .contacts-text{
     color: var(--SLATE);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
 }
 
 .hero {
+    margin: 0;
     background: var(--NAVY-BLUE);
+}
+
+.Filters button{
+    background-color: var(--CLOUD);
+    color: var(--IRIS);
+    cursor: pointer;
+}
+
+.Filters button:hover{
+    background-color: var(--OCEAN);
+    color: white;
 }
