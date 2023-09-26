@@ -90,19 +90,28 @@ nav .navbar-text {
     color: var(--SLATE);
 }
 
+.contacts .contacts-text:hover{
+    color: var(--OCEAN);
+}
+
 .hero {
     margin: 0;
     background: var(--NAVY-BLUE);
     text-align: center;
 }
 
-.Filters button{
+.hero button:hover {
+    color: var(--NAVY-BLUE);
+    background-color: var(--CLOUD);
+}
+
+.filters button{
     background-color: var(--CLOUD);
     color: var(--IRIS);
     cursor: pointer;
 }
 
-.Filters button:hover{
+.filters button:hover{
     background-color: var(--OCEAN);
     color: white;
 }
