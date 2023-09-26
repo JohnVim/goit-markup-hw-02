@@ -25,9 +25,17 @@ body {
     letter-spacing: 0.32px;
 }
 
+footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+}
+
+footer .logo .logo-text{
+    color: var(--CLOUD);
+}
+
 h1 {
     color: var(--WHITE);
-    text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -74,6 +82,10 @@ nav .navbar-text {
     font-weight: 500;
 }
 
+.navbar-text:hover {
+    color: var(--OCEAN);
+}
+
 .contacts .contacts-text{
     color: var(--SLATE);
 }
@@ -81,6 +93,7 @@ nav .navbar-text {
 .hero {
     margin: 0;
     background: var(--NAVY-BLUE);
+    text-align: center;
 }
 
 .Filters button{
